@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+7.times do |i|
+  Article.create(title: "article #{i}",body: "article body #{i}")
+end

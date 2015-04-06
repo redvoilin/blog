@@ -1,27 +1,20 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+此项目是用ruby on rails编写的，自动化测试框架的样例test case可以对此项目搭建的web site进行测试
 
-Things you may want to cover:
+如何安装和启动此项目:
 
-* Ruby version
+1、安装ruby
+   
+   windows可以通过这个地址安装：http://railsinstaller.org/en
 
-* System dependencies
+   osx和linux推荐通过rvm来安装和管理ruby：
 
-* Configuration
+   (1)、安装rvm：https://www.rvm.io/
 
-* Database creation
+   (2)、然后安装ruby: rvm install 2.2.1
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+2、安装所需要的gem
 
 
 Please feel free to use a different markup language if you do not plan to run

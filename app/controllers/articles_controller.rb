@@ -1,6 +1,6 @@
 class ArticlesController < ApplicationController
   before_action :set_article, only: [:show, :edit, :update, :destroy]
-  before_action :authenticate_user!
+  # before_action :authenticate_user!
   skip_before_action :verify_authenticity_token, if: :json_request?
   # GET /articles
   # GET /articles.json
