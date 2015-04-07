@@ -5,6 +5,7 @@
 如何安装和启动此项目:
 
 1.安装ruby
+  
   windows可以通过这个地址安装：http://railsinstaller.org/en
 
   osx和linux推荐通过rvm来安装和管理ruby：
@@ -17,4 +18,8 @@
    
   1.进入blog目录
    
-  2.运行此命令安装所需gem: <tt>bundle install</tt>
+  2.运行此命令安装所需gem: bundle install
+
+3.启动
+  
+  通过此命令启动:rails s
