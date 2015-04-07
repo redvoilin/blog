@@ -10,9 +10,9 @@
 
   osx和linux推荐通过rvm来安装和管理ruby：
 
-  1.安装rvm：https://www.rvm.io/
+  1.安装rvm，详情查看rvm官网：https://www.rvm.io/
 
-  2.通过rvm安装ruby: rvm install 2.2.1
+  2.执行此命令安装ruby: rvm install 2.2.1
 
 2.安装所需要的gem
    
@@ -20,6 +20,14 @@
    
   2.运行此命令安装所需gem: bundle install
 
-3.启动
+3.配置数据库连接
+
+  配置文件在 blog/config/database.yml
+
+4.往数据库中插入预置数据
+
+  通过此命令插入数据: rake db:seed
+
+5.启动
   
-  通过此命令启动:rails s
+  通过此命令启动: rails s
