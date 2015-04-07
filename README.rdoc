@@ -24,10 +24,16 @@
 
   配置文件在 blog/config/database.yml
 
-4.往数据库中插入预置数据
+4.创建和初始化数据库,需要先安装好mysql
+
+  创建数据库命令: rake db:setup
+
+  初始化数据库: rake db:migrate
+
+5.往数据库中插入预置数据
 
   通过此命令插入数据: rake db:seed
 
-5.启动
+6.启动
   
   通过此命令启动: rails s
