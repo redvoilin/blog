@@ -5,7 +5,6 @@
 如何安装和启动此项目:
 
 1.安装ruby
-  
   windows可以通过这个地址安装：http://railsinstaller.org/en
 
   osx和linux推荐通过rvm来安装和管理ruby：
